@@ -143,6 +143,12 @@ window.addEventListener('mousedown', function () {
 window.addEventListener('mouseup', function () {
   drawing = false
 })
+window.addEventListener('touchstart', function () {
+  drawing = true
+})
+window.addEventListener('touchend', function () {
+  drawing = false
+})
 
 // window.onload = function () {
 //   const canvas = document.getElementById('canvas1')
